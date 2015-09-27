@@ -17,7 +17,7 @@ to their parents using object variables with the subset object type.
 
 The diagram below explains the XML mapping with JAXB used in this implementation:
 
-![XML Mapping with JAXB](https://raw.githubusercontent.com/josebamartos/orgcensus-jaxb/master/WebContent/img/xml-mapping-with-jaxb.svg "XML Mapping with JAXB")
+![XML Mapping with JAXB](https://raw.githubusercontent.com/josebamartos/orgcensus-jaxb/master/WebContent/img/xml-mapping-with-jaxb.png "XML Mapping with JAXB")
 
 ## Installation
 
