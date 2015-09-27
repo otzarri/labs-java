@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<census>
+  <organization>
+    <name>Free Software Foundation Europe e.V.</name>
+    <email>office@fsfeurope.org</email>
+    <address>
+      <street>Schonhauser Allee 6/7. Stairway 2, 5. floor</street>
+      <city>Berlin</city>
+      <country>Germany</country>
+    </address>
+  </organization>
+  <organization>
+    <name>Free Software Foundation</name>
+    <email>info@fsf.org</email>
+    <address>
+      <street>51 Franklin Street, Fifth Floor</street>
+      <city>Boston</city>
+      <country>USA</country>
+    </address>
+  </organization>
+</census>
