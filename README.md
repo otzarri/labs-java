@@ -21,4 +21,4 @@ The diagram below explains the XML mapping with JAXB used in this implementation
 
 ## Installation
 
-orgcensus-jaxb is developed as a warfile for [JBoss EAP](http://www.jboss.org/products/eap/) 6.x, because JBoss EAP provides full Java EE stack, including JAXB classes, out-of-the-box. The warfile is built and located in [orgcensus-jaxb.war](https://raw.githubusercontent.com/josebamartos/orgcensus-jaxb/master/orgcensus-jaxb.war) file. Deploy it in your EAP and start hacking.
+orgcensus-jaxb is developed as a warfile for [JBoss EAP](http://www.jboss.org/products/eap/) 6.x, because JBoss EAP provides full Java EE stack, including JAXB classes, out-of-the-box. The warfile is built and located in [orgcensus-jaxb.war](https://raw.githubusercontent.com/josebamartos/orgcensus-jaxb/master/orgcensus-jaxb.war) file. Deploy it in your EAP and start hacking at default URL: http://localhost:8080/orgcensus-jaxb/
