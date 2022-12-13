@@ -1,0 +1,361 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2018-06-19T23:18:27.308Z",
+	"__export_source": "insomnia.desktop.app:v5.16.6",
+	"resources": [
+		{
+			"_id": "wrk_d26d4e70019246e98d6d631f2760b490",
+			"created": 1529188814735,
+			"description": "",
+			"modified": 1529188814735,
+			"name": "Insomnia",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_f895e7445bf54d21a9c3b991fa510d46",
+			"color": null,
+			"created": 1529188814783,
+			"data": {},
+			"isPrivate": false,
+			"modified": 1529188814783,
+			"name": "New Environment",
+			"parentId": "wrk_d26d4e70019246e98d6d631f2760b490",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_a6d99c45e396462ca4d87f2ca3fa96e5",
+			"cookies": [],
+			"created": 1529188814907,
+			"modified": 1529188814907,
+			"name": "Default Jar",
+			"parentId": "wrk_d26d4e70019246e98d6d631f2760b490",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "fld_ecd1d15ea908459a83f8cad0477e3fee",
+			"created": 1529207077557,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529207077557,
+			"modified": 1529207191942,
+			"name": "Load sample data",
+			"parentId": "wrk_d26d4e70019246e98d6d631f2760b490",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_3c6cb399de27426c8b88ab4cac9e2e9f",
+			"created": 1529208326736,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1529207077507,
+			"modified": 1529208333463,
+			"name": "CRUD",
+			"parentId": "wrk_d26d4e70019246e98d6d631f2760b490",
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_83b543796d3741b58249ef3fcb5671c5",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"isbn\":\"97809831592096\",\n  \"year\": \"2015\",\n  \"author\": \"Richard Stallman\",\n  \"title\": \"Free Software, Free Society\",\n  \"tags\": [\"copyleft\", \"free-software\"]\n}"
+			},
+			"created": 1529188868952,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_5f2a9c7ee1f747aeba1d007841678721",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529188831673,
+			"method": "POST",
+			"modified": 1529450245802,
+			"name": "Free Software, Free Society",
+			"parameters": [],
+			"parentId": "fld_ecd1d15ea908459a83f8cad0477e3fee",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:8080/java-rest-mongo/api/books",
+			"_type": "request"
+		},
+		{
+			"_id": "req_0155113b9d9b41e1a35c657146cb1926",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"isbn\":\"9780553109535\",\n  \"year\": \"1988\",\n  \"author\": \"Stephen Hawking\",\n  \"title\": \"A Brief History of Time\",\n  \"tags\": [\"science\", \"cosmology\"]\n}"
+			},
+			"created": 1529207199394,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_5f2a9c7ee1f747aeba1d007841678721",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529188831773,
+			"method": "POST",
+			"modified": 1529450175371,
+			"name": "A Brief History of Time",
+			"parameters": [],
+			"parentId": "fld_ecd1d15ea908459a83f8cad0477e3fee",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:8080/java-rest-mongo/api/books",
+			"_type": "request"
+		},
+		{
+			"_id": "req_f11ad234c24d4a61a1fc42b354cb52aa",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "  {\n    \"isbn\":\"9780436350078\",\n    \"year\": \"1949\",\n    \"author\": \"George Orwell\",\n    \"title\": \"1984\",\n    \"tags\": [\"political\", \"dystopian\"]\n  }"
+			},
+			"created": 1529207793075,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_5f2a9c7ee1f747aeba1d007841678721",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529188831823,
+			"method": "POST",
+			"modified": 1529450234523,
+			"name": "1984",
+			"parameters": [],
+			"parentId": "fld_ecd1d15ea908459a83f8cad0477e3fee",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:8080/java-rest-mongo/api/books",
+			"_type": "request"
+		},
+		{
+			"_id": "req_6eb9609631b947f5bdb1c92946598897",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "  {\n    \"isbn\":\"9780060809836\",\n    \"year\": \"1931\",\n    \"author\": \"Aldous Huxley\",\n    \"title\": \"Brave New World\",\n    \"tags\": [\"political\", \"dystopian\"]\n  }"
+			},
+			"created": 1529207890102,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_5f2a9c7ee1f747aeba1d007841678721",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529188831723,
+			"method": "POST",
+			"modified": 1529450242228,
+			"name": "Brave New World",
+			"parameters": [],
+			"parentId": "fld_ecd1d15ea908459a83f8cad0477e3fee",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:8080/java-rest-mongo/api/books",
+			"_type": "request"
+		},
+		{
+			"_id": "req_9e7106fb9662433da5e0a47457e31ecb",
+			"authentication": {},
+			"body": {},
+			"created": 1529188831723,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529188831823,
+			"method": "GET",
+			"modified": 1529450249719,
+			"name": "/api/books",
+			"parameters": [],
+			"parentId": "fld_3c6cb399de27426c8b88ab4cac9e2e9f",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:8080/java-rest-mongo/api/books",
+			"_type": "request"
+		},
+		{
+			"_id": "req_23e982d54f2349afa5b811285a2a8622",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"isbn\": \"9780133591620\",\n  \"year\": \"2014\",\n  \"author\": \"Andrew Tanenbaum \",\n  \"title\": \"Modern Operating Systems\",\n  \"tags\": [\"science\", \"mathematics\"]\n}"
+			},
+			"created": 1529209623122,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_403b581530654be69d3d415d71778314",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529188831773,
+			"method": "POST",
+			"modified": 1529450254261,
+			"name": "/api/books",
+			"parameters": [],
+			"parentId": "fld_3c6cb399de27426c8b88ab4cac9e2e9f",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:8080/java-rest-mongo/api/books",
+			"_type": "request"
+		},
+		{
+			"_id": "req_3efec570878246a1a614246a5b9d88ca",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"isbn\": \"9780133591620\",\n  \"year\": \"2014\",\n  \"author\": \"Andrew S. Tanenbaum \",\n  \"title\": \"Modern Operating Systems\",\n  \"tags\": [\"computing\", \"operating-systems\"]\n}"
+			},
+			"created": 1529210112160,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_403b581530654be69d3d415d71778314",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529188831685.5,
+			"method": "PUT",
+			"modified": 1529450262226,
+			"name": "/api/books",
+			"parameters": [],
+			"parentId": "fld_3c6cb399de27426c8b88ab4cac9e2e9f",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:8080/java-rest-mongo/api/books/9780133591620",
+			"_type": "request"
+		},
+		{
+			"_id": "req_5c4a70a8efa8453583618f9fd734cc91",
+			"authentication": {},
+			"body": {},
+			"created": 1529220606440,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_403b581530654be69d3d415d71778314",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1529188831679.25,
+			"method": "DELETE",
+			"modified": 1529450269352,
+			"name": "/api/books",
+			"parameters": [],
+			"parentId": "fld_3c6cb399de27426c8b88ab4cac9e2e9f",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:8080/java-rest-mongo/api/books/9780133591620",
+			"_type": "request"
+		},
+		{
+			"_id": "req_1b0de240b63e408ebbcd7e075ee8732b",
+			"authentication": {},
+			"body": {},
+			"created": 1529237527120,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529188831710.5,
+			"method": "GET",
+			"modified": 1529450258091,
+			"name": "/api/books",
+			"parameters": [],
+			"parentId": "fld_3c6cb399de27426c8b88ab4cac9e2e9f",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:8080/java-rest-mongo/api/books/9780133591620",
+			"_type": "request"
+		},
+		{
+			"_id": "req_75bab2241dcd4b728a03f41c74a60099",
+			"authentication": {},
+			"body": {},
+			"created": 1529239609616,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529188831682.375,
+			"method": "GET",
+			"modified": 1529450265619,
+			"name": "/api/books",
+			"parameters": [],
+			"parentId": "fld_3c6cb399de27426c8b88ab4cac9e2e9f",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:8080/java-rest-mongo/api/books/9780133591620",
+			"_type": "request"
+		},
+		{
+			"_id": "req_e3bb637d96cb4975990d86bc419f3458",
+			"authentication": {},
+			"body": {},
+			"created": 1529239662833,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1529188831629.25,
+			"method": "GET",
+			"modified": 1529450272910,
+			"name": "/api/books",
+			"parameters": [],
+			"parentId": "fld_3c6cb399de27426c8b88ab4cac9e2e9f",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:8080/java-rest-mongo/api/books/9780133591620",
+			"_type": "request"
+		}
+	]
+}
